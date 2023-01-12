@@ -1,0 +1,69 @@
+.container {
+    width: auto;
+    height: 2200px;
+}
+
+nav {
+    width: auto;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 80px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 30px;
+    padding: 8px 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(232, 217, 179);
+    border-radius: 5px;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.head {
+    width: 1300px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+
+.head h1 {
+    position: absolute;
+    left: 80px;
+    top: 40px;
+    font-size: 60px;
+    color: white;
+}
+
+.head p {
+    position: absolute;
+    left: 80px;
+    top: 140px;
+    font-size: 20px;
+    color: white;
+}
+
+.fav {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+}
