@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web food</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+   <head>
+      <meta charset="utf-8">
+      <title>Responsive Navigation Menu</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <nav>
+         <div class="logo">
+            Brand
+         </div>
+         <input type="checkbox" id="click">
+         <label for="click" class="menu-btn">
+         <i class="fas fa-bars"></i>
+         </label>
+         <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Feedback</a></li>
+         </ul>
+      </nav>
 
-    <div class="container">
-        <nav class="nav">
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">blog</a></li>
-                <li><a href="#">contact</a></li>
-            </ul>
-        </nav>
+      <div class="container">
         <div class="head">
-            <h1>RUMAH MAKAN</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti <br>  corporis sequi, dolore voluptatum 
-                praesentium dolor veniam eum, <br>  repellendus accusamus dolorem ad autem labore molestiae doloremque.  <br> Porro vero cum accusamus distinctio.</p>
-            <img src="img/headfood.jpg" alt="image" height="100%" width="100%">
+            <h1>RUMAH MAKAN SUNDA</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsum <br> dignissimos quaerat est eum deserunt, rerum aspernatur cum provident labore <br> molestias alias totam dolorum consequatur qui et! Recusandae, soluta beatae!</p>
+            <img class="imgHead" src="img/headfood.jpg" alt="image">
         </div>
-        
+
         <div  class="history">
-            <img src="img/liwet.jpg" alt="image" height="500px" width="800px" align="right">
+            <h2>history</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>  Perspiciatis ipsum dignissimos quaerat est eum deserunt, <br> rerum aspernatur cum provident labore molestias alias totam  <br>  dolorum consequatur qui et! Recusandae, soluta beatae!</p>
+            <img src="img/liwet.jpg" alt="image">
         </div>
+            
         <div class="fav">
-            <img src="img/tumpeng.jpg" alt="image" height="100%">
+            <h2>favorite</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>  Perspiciatis ipsum dignissimos quaerat est eum deserunt, <br> rerum aspernatur cum provident labore molestias alias totam  <br>  dolorum consequatur qui et! Recusandae, soluta beatae!</p>
+            <img class="imgFav" src="img/tumpeng.jpg" alt="image">
         </div>
-        <div class="cardList"></div>
-        <div class="footer"></div>
     </div>
-    
-</body>
+    </body>
 </html>
